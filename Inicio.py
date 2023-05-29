@@ -10,7 +10,7 @@ root = tk.Tk()
 root.geometry("720x500")
 
 # Cargar la imagen de fondo
-background_image = Image.open("fondomenu.png")
+background_image = Image.open(".png")
 background_image = background_image.resize((720, 500), Image.ANTIALIAS)
 background_image = ImageTk.PhotoImage(background_image)
 
