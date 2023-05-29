@@ -74,10 +74,10 @@ def mostrarFinanzas(on_return):
     # Crear la ventana principal
     ventana = Toplevel()
     ventana.title("PLATANEX")
-    ventana.geometry("1366x800")
+    ventana.geometry("1366x900")
 
     # Establecer la imagen de fondo
-    imagen = PhotoImage(file="fondo2.png")
+    imagen = PhotoImage(file="fondo1.png")
     fondo = Label(ventana, image=imagen)
     fondo.place(x=0, y=0, relwidth=1, relheight=1)
     # Marco para los campos de entrada
