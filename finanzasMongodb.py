@@ -77,7 +77,7 @@ def mostrarFinanzas(on_return):
     ventana.geometry("1366x800")
 
     # Establecer la imagen de fondo
-    imagen = PhotoImage(file="fondo1.png")
+    imagen = PhotoImage(file="fondo2.png")
     fondo = Label(ventana, image=imagen)
     fondo.place(x=0, y=0, relwidth=1, relheight=1)
     # Marco para los campos de entrada
