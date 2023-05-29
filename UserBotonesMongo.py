@@ -50,7 +50,7 @@ def mostrarBotones(on_return):
     frame = tk.Frame(master=root)
     frame.pack(pady=85, padx=245, fill="both", expand= True)
 
-    label = tk.Label(master=frame, text="Administrador", font=("Roboto",24))
+    label = tk.Label(master=frame, text="Usuario", font=("Roboto",24))
     label.pack(pady=12,padx=10)
 
     button1= customtkinter.CTkButton(master=frame, text="Cosecha", command=ocultarBotonesco)

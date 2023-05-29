@@ -79,14 +79,17 @@ def mostrarCalculos(on_return):
                 mostrar_calculos()
 
         # Crear la ventana principal
-    ventana = Tk()
+    ventana = Toplevel()
     ventana.title("Cálculo de Ratio y Estimación")
-    ventana.geometry("720x500")
+    ventana.geometry("1366x900")
 
-
+     # Establecer la imagen de fondo
+    imagen = PhotoImage(file="fondof.png")
+    fondo = Label(ventana, image=imagen)
+    fondo.place(x=0, y=0, relwidth=1, relheight=1)
 
     frame = tk.Frame(master=ventana)
-    frame.place(x=120, y=50, width=520, height=400)
+    frame.place(x=423, y=250, width=520, height=400)
 
         # Crear los widgets de la interfaz
     semana_label = Label(frame, text="Semana actual:")

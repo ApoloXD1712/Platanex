@@ -6,9 +6,12 @@ from conexionMongodb import *
 
 
 def mostrarEmbarque(on_return):
-    ventana = Tk()
+    ventana = Toplevel()
     ventana.title("PLATANEX")
     ventana.geometry("1366x768")
+    imagen= PhotoImage(file="Usuario.png")
+    Label(ventana, image=imagen, bd=0).pack()
+
 
     db = cliente
     cantidad = DoubleVar()
